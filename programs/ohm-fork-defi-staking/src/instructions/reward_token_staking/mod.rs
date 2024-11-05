@@ -1,3 +1,2 @@
-pub mod reward_token_staking_initialize;
-
-pub use reward_token_staking_initialize::*;
+pub mod reward_token_initialize;
+pub use reward_token_initialize::*;
