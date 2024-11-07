@@ -10,4 +10,7 @@ pub enum ErrorCode{
 
     #[msg("Not enough")]
     NotEnough,
+
+    #[msg("Not allow meme coin")]
+    NotAllowMemeCoin
 }

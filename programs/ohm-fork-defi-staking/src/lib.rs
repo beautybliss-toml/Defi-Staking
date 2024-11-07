@@ -59,4 +59,9 @@ pub mod lfg_staking {
         msg!("Instruction: Claim ohm");
         instructions::claim_ohm(ctx, amount)
     }
+
+    pub fn meme_coin_initialize(ctx: Context<MemeCoinInitialize>) -> Result<()> {
+        msg!("Instruction: meme coin staking initialize");
+        instructions::meme_coin_initialize(ctx)
+    }
 }
